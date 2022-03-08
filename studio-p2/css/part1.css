@@ -1,0 +1,109 @@
+
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+@font-face {
+    font-family: amalfi;
+    src: url(../fonts/AmalfiCoast.ttf);
+}
+
+@font-face {
+    font-family: bernhard;
+    src: url(../fonts/BernhardModernStd-Roman.otf);
+}
+
+body {
+    font-size: 1rem;
+    background-color: black;
+      margin-top: 100px;
+
+}
+
+
+p {
+      font-family: amalfi;
+  font-size: 0.5rem;
+  color: white;
+  margin: -10px;
+  text-align: center;
+  position: relative;
+}
+
+
+
+h1 {
+  font-family: amalfi;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h2 {
+  font-family: amalfi;
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  }
+
+
+/*pulse*/
+.pulse {
+    -webkit-animation: pulsate 2.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.3;
+}
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.3; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.3; }
+}
+
+.pulse2 {
+    -webkit-animation: pulsate 1.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.3;
+}
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.3; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.3; }
+}
+
+.pulse3 {
+    -webkit-animation: pulsate 3.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: 0.3;
+}
+@-webkit-keyframes pulsate {
+    0% { opacity: 0.3; }
+    50% { opacity: 1.0; }
+    100% { opacity: 0.3; }
+}
+
+

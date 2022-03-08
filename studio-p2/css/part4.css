@@ -1,0 +1,96 @@
+@media only screen 
+  and (min-device-width: 390px) 
+  and (max-device-width: 844px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+
+}
+
+
+@font-face {
+    font-family: amalfi;
+    src: url(../fonts/AmalfiCoast.ttf);
+}
+
+@font-face {
+    font-family: bernhard;
+    src: url(../fonts/BernhardModernStd-Roman.otf);
+}
+
+body {
+	 background: black;
+	 color: rgba(0, 0, 0, 0.84);
+	 font-size: 20px;
+	 line-height: 1.5;
+	 padding-top: 1em;
+}
+h1 {
+  font-family: amalfi;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-family: amalfi;
+  font-size: 1.5rem;
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+
+}
+
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  }
+ p {
+	 font-family: 'bernhard';
+	 color: white;
+	 text-align: center;
+}
+ .blurred span {
+	 filter: blur(6px);
+
+}
+ .invisible-ink span {
+	 background: #fafafa;
+	 color: #fafafa;
+
+}
+ .redacted span {
+	 position: relative;
+	 white-space: pre;
+}
+ .redacted span:after {
+	 background: black;
+	 border-radius: 0.1em;
+	 box-shadow: 0 0 1px rgba(0, 0, 0, 0.35);
+	 content: " ";
+	 width: 100%;
+	 height: 1.2em;
+	 left: 0;
+	 position: absolute;
+	 transform: skewY(-5deg) rotate(5deg);
+}
+ 
+ span:hover
+{
+  display:none;
+}
+
