@@ -1,0 +1,148 @@
+body {
+  background: black;
+}
+
+.europe {
+  color: white;
+  font-size: 15px;
+}
+
+
+.containereurope{
+    width: 1000px;
+    overflow:hidden;
+    display:block;
+    height: 300px;
+}
+
+#europe {
+position:absolute;
+top: 520px;
+left: -100px;
+z-index: -1;
+}
+
+.containerna{
+    width: 1000px;
+    overflow:hidden;
+    display:block;
+    height: 300px;
+}
+
+#northamerica {
+position:absolute;
+top: 0px;
+left: 490px;
+transform: rotate(180deg);
+z-index: -2;
+}
+
+.dot-container {
+    position: relative;
+    height:50px;
+    width:200px;
+}
+
+/*.dot {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}*/
+
+.dot-ring1 {
+    border: 3px solid white;
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 335px;
+    top: 605px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+.dot-ring2 {
+    border: 3px solid white;
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+.dot-ring3 {
+    border: 3px solid white;
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 305px;
+    top: 665px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+.dot-ring4 {
+    border: 3px solid white;
+    -webkit-border-radius: 30px;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    left: 505px;
+    top: 500px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite;
+    opacity: 0.0
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+
+
+.fade-in-image {
+  animation: fadeIn 50s;
+  -webkit-animation: fadeIn 50s;
+  -moz-animation: fadeI1n 50s;
+  -o-animation: fadeIn 50s;
+  -ms-animation: fadeIn 50s;
+}
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
